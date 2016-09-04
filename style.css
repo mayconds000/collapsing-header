@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-main-menu{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(212, 244, 242);
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+}
+#nav-main-menu #logo{
+  font-size: 18px;
+  font-weight: 700;
+}
+#nav-main-menu ul{
+  list-style: none;
+  align-self: flex-end;
+}
+
+#nav-main-menu ul li{
+  margin-left: 20px;
+  display: inline;
+
+}
+
+#banner{
+  height: 250px;
+  width: 100%;
+  top: 60px;
+  background-image: url(./london-skyline-at-night-xlarge.jpg);
+  background-position: bottom;;;
+  color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner h1{
+  box-shadow: 5px 2px 5px #333;
+}
+
+#description{
+  position: relative;
+  max-width: 640px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+
+#description p{
+  margin-bottom: 30px;
+}
